@@ -1,0 +1,26 @@
+{
+  "name": "google-form-url-creator",
+  "version": "1.0.0",
+  "repository": "https://github.com/e-chan1007/google-form-url-creator.git",
+  "author": "e-chan1007",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/*",
+    "watch": "parcel watch src/*"
+  },
+  "devDependencies": {
+    "@types/webextension-polyfill": "^0.8.1",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  },
+  "staticFiles": {
+    "staticPath": [
+      "public"
+    ]
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.8.0"
+  }
+}

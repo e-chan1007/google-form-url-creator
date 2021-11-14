@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Googleフォーム 事前入力URL作成",
+  "description": "自分、または他人が作成したGoogleフォームの事前入力されたURLを作成",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://docs.google.com/forms/d/e/*",
+        "https://docs.google.com/forms/u/*/d/e/*"
+      ],
+      "js": [
+        "forms.js"
+      ]
+    }
+  ]
+}
